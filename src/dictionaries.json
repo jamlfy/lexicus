@@ -1,0 +1,45 @@
+[
+  {
+    "key": "definitions",
+    "languages": ["en"],
+    "dictionary": "wordreference",
+    "url": "https://www.wordreference.com/definition/%WORD%",
+    "htmlSections": ["#otherDicts div:first-of-type li"]
+  },
+  {
+    "key": "definitions",
+    "languages": ["es"],
+    "dictionary": "wordreference",
+    "url": "https://www.wordreference.com/definicion/%WORD%",
+    "htmlSections": ["#otherDicts div:first-of-type li"]
+  },
+  {
+    "key": "synonyms",
+    "languages": ["es"],
+    "dictionary": "wordreference",
+    "url": "https://www.wordreference.com/sinonimos/%WORD%",
+    "htmlSections": ["#otherDicts div:first-of-type li"],
+    "splitText": ",  "
+  },
+  {
+    "key": "synonyms",
+    "languages": ["en"],
+    "dictionary": "wordreference",
+    "url": "https://www.wordreference.com/synonyms/%WORD%",
+    "htmlSections": ["#otherDicts .engthes span"]
+  },
+  {
+    "key": "synonyms",
+    "languages": ["en"],
+    "dictionary": "thesaurus",
+    "url": "https://www.thesaurus.com/browse/%WORD%",
+    "htmlSections": ["#meanings li"]
+  },
+  {
+    "key": "synonyms",
+    "languages": ["de", "it", "pt", "fr", "en", "es"],
+    "dictionary": "reverso",
+    "url": "https://prs-ccg.ew.r.appspot.com/https://synonyms.reverso.net/sinonimo/%LANG%/%WORD%",
+    "htmlSections": ["div.word-opt li a", "div.extended-suggestions a"]
+  }
+]
